@@ -5,15 +5,15 @@ let pantallaActual = 0; // Asegúrate de inicializar esta variable
 let transiciones = {
   0: [1], // Pantalla 0 tiene un botón que lleva a la pantalla 1
   1: [2], // Pantalla 1 lleva a la pantalla 2
-  2: [3, 4], // Pantalla 2 lleva a pantalla 4 si eliges "Sí", y a pantalla 3 si eliges "No"
+  2: [3, 4], // Pantalla 2 lleva a pantalla 4 si elegis "Sí", y a pantalla 3 si elegis "No"
   3: [0], // Pantalla 3 tiene un botón de reinicio que lleva a la pantalla 0
   4: [5], // Pantalla 4 lleva a la pantalla 5 sin importar la opción
-  5: [6, 7], // Pantalla 5 lleva a pantalla 6 si eliges "Sí", y a pantalla 7 si eliges "No"
+  5: [6, 7], // Pantalla 5 lleva a pantalla 6 si elegis "Sí", y a pantalla 7 si elegis "No"
   6: [7], // Pantalla 6 lleva a pantalla 8
   7: [8], // Pantalla 7 lleva a pantalla 8
-  8: [9, 10], // Pantalla 8 lleva a pantalla 10 si eliges "Corto", y a pantalla 9 si eliges "Largo"
+  8: [9, 10], // Pantalla 8 lleva a pantalla 10 si elegis "Corto", y a pantalla 9 si elegis "Largo"
   9: [13], // Pantalla 9 lleva a pantalla 11
-  10: [11, 13], // Pantalla 10 lleva a pantalla 11 si eliges "Frenar", y a pantalla 13 si eliges "Enfrentar"
+  10: [11, 13], // Pantalla 10 lleva a pantalla 11 si elegis "Frenar", y a pantalla 13 si elegis "Enfrentar"
   11: [12], // Pantalla 11 lleva a pantalla 12
   12: [0], // Pantalla 12 tiene un botón de reinicio que lleva a la pantalla 0
   13: [14], // Pantalla 13 lleva a pantalla 14
